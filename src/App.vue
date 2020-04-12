@@ -9,7 +9,7 @@
         ></v-img>
       </v-avatar>
 
-      <v-toolbar-title class="font-weight-black headline">VUETIFY</v-toolbar-title>
+      <v-toolbar-title class="font-weight-black headline">Jonathan Perry's Website</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
