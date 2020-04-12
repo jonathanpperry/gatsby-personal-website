@@ -11,7 +11,11 @@ export default new Router({
     {
       path: "/home/",
       name: "home",
-      component: Home
+      component: Home,
+      meta: {
+        auth: false,
+        title: "Jonathan Perry's Website"
+      }
     },
     {
       path: "/about/",
