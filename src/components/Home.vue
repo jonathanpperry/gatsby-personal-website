@@ -58,7 +58,6 @@
           <v-img src="../assets/john.png"></v-img>
         </v-avatar>
 
-        <div></div>
       </v-container>
 
       <div class="py-12"></div>
