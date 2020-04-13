@@ -12,6 +12,7 @@
       <div v-if="$vuetify.breakpoint.smAndUp">
         <v-btn text to="/home">HOME</v-btn>
         <v-btn text to="/about">ABOUT</v-btn>
+        <v-btn text to="/projects">PROJECTS</v-btn>
         <v-btn text to="/blog">BLOG</v-btn>
       </div>
       <div v-else>
@@ -41,6 +42,14 @@
           <v-list-item-content>
             <v-list-item-title>
               <v-btn text to="/about">ABOUT</v-btn>
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item link>
+          <v-list-item-content>
+            <v-list-item-title>
+              <v-btn text to="/projects">projects</v-btn>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>

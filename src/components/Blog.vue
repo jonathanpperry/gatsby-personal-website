@@ -3,7 +3,6 @@
     <h1 class="text-center">{{ page_title }}</h1>
     <div class="row">
       <div class="col-3">
-        <h4 class="pl-3">Recent posts</h4>
       </div>
       <div class="col-6" id="blog-post-div">
         <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->

@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Blog from "@/components/Blog";
 import BlogPost from "@/components/BlogPost";
 import FAQ from "@/components/FAQ";
+import Projects from "@/components/Projects";
 
 Vue.use(Router);
 
@@ -17,7 +18,7 @@ export default new Router({
       component: Home
     },
     {
-      path: "/home/",
+      path: "/home",
       name: "home",
       component: Home,
       meta: {
@@ -26,7 +27,7 @@ export default new Router({
       }
     },
     {
-      path: "/about/",
+      path: "/about",
       name: "about",
       component: About
     },
@@ -41,9 +42,14 @@ export default new Router({
       component: BlogPost
     },
     {
+      path: "/projects",
+      name: "projects",
+      component: Projects
+    },
+    {
       path: "/faq",
       name: "faq",
       component: FAQ
-    }
+    },
   ]
 });
