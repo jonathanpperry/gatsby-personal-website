@@ -57,7 +57,6 @@
         <v-avatar class="elevation-12 mb-12" size="128">
           <v-img src="../assets/john.png"></v-img>
         </v-avatar>
-
       </v-container>
 
       <div class="py-12"></div>
@@ -68,6 +67,13 @@
 
       <v-container class="text-center">
         <h2 class="display-2 font-weight-bold mb-3">MY MISSION</h2>
+
+        <v-responsive class="mx-auto mb-12" width="56">
+          <v-divider class="mb-1"></v-divider>
+
+          <v-divider></v-divider>
+        </v-responsive>
+
         <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
           I lost my job in OKC in September 2017, which was the single most difficult
           and life-rattling thing that's happened to me in my life.
