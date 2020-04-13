@@ -1,26 +1,35 @@
 <template>
-  <div class="row">
-    <div class="col-3">
-      <h4 class="pl-3">Recent posts</h4>
-      <div v-for="(post,index) in posts" :key="post.slug + '_' + index">
-        <router-link :to="'/blog/' + post.slug">
-          <v-card class="mx-auto" max-width="400" tile>
-            <v-list-item two-line>
-              <v-list-item-content>
-                <v-list-item-title>{{post.title}}</v-list-item-title>
-                <v-list-item-subtitle>{{post.summary}}</v-list-item-subtitle>
-              </v-list-item-content>
-            </v-list-item>
-          </v-card>
-        </router-link>
+  <v-container>
+    <div class="row">
+      <div class="col-3">
+        <h4 class="pl-3">Recent posts</h4>
+        <div v-for="(post,index) in posts" :key="post.slug + '_' + index">
+          <router-link :to="'/blog/' + post.slug">
+            <v-card class="mx-auto" max-width="400" tile>
+              <v-list-item two-line>
+                <v-list-item-content>
+                  <v-list-item-title>{{post.title}}</v-list-item-title>
+                  <v-list-item-subtitle>{{post.summary}}</v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+            </v-card>
+          </router-link>
+        </div>
+      </div>
+      <div class="col-6" id="blog-post">
+        <h1>{{ post.data.title }}</h1>
+        <h4>{{ post.data.author.first_name }} {{ post.data.author.last_name }}</h4>
+        <div v-html="post.data.body"></div>
       </div>
     </div>
-    <div class="col-6" id="blog-post">
-      <h1>{{ post.data.title }}</h1>
-      <h4>{{ post.data.author.first_name }} {{ post.data.author.last_name }}</h4>
-      <div v-html="post.data.body"></div>
+    <div class="comments">
+      <vue-disqus
+        shortname="jonnyramen"
+        :title="post.slug"
+        :url="`jonathanperry.co/blog/${post.slug}`"
+      ></vue-disqus>
     </div>
-  </div>
+  </v-container>
 </template>
 
 
