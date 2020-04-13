@@ -76,7 +76,7 @@
 
         <v-responsive class="mx-auto title font-weight-light mb-8" max-width="720">
           I lost my job in OKC in September 2017, which was the single most difficult
-          and life-rattling thing that's happened to me in my life.
+          and life-rattling thing that's happened to me.
           <br />I began thinking about what was important to me and how I wanted to use
           my life to its maximum effect. At the time, I believed and still do believe
           that this world is not my home, and I wanted to store up treasure in heaven,
@@ -84,7 +84,7 @@
           Japanese periodically throughout my life, I had my heart set upon coming to and
           living in Japan. Though my initial set of interviews weren't very successful,
           God seemingly miraculously opened up a door for me to get more than I could
-          have even asked for or imagined, the best visa that is possible enabling me to
+          have even asked for or imagined: the best visa that is possible enabling me to
           work in the field I really wanted to work in, but also allowing me to fall back
           on other jobs such as teaching English if need be.
           <br />I currently attend Hillsong Tokyo, and am getting really excited about
@@ -192,7 +192,7 @@ export default {
         ["90", "Github Repositories"],
         ["3+", "Mobile App Releases"],
         ["TBD", "Downloads/mo"],
-        ["5m", "Total Downloads"]
+        ["5+", "Total Downloads"]
       ]
     };
   }
