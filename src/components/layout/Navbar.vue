@@ -24,41 +24,33 @@
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list-item class="blue lighten-1">
         <v-list-item-content>
-          <v-list-item-title>Navigation</v-list-item-title>
+          <v-list-item-title>Where to?</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
       <v-divider></v-divider>
 
       <v-list dense>
-        <v-list-item link>
+        <v-list-item to="/home" link>
           <v-list-item-content>
-            <v-list-item-title>
-              <v-btn text to="/home">HOME</v-btn>
-            </v-list-item-title>
+            <v-list-item-title>HOME</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item link>
+        <v-list-item to="/about" link>
           <v-list-item-content>
-            <v-list-item-title>
-              <v-btn text to="/about">ABOUT</v-btn>
-            </v-list-item-title>
+            <v-list-item-title>ABOUT</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item link>
+        <v-list-item to="/projects" link>
           <v-list-item-content>
-            <v-list-item-title>
-              <v-btn text to="/projects">projects</v-btn>
-            </v-list-item-title>
+            <v-list-item-title>PROJECTS</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item link>
+        <v-list-item to="/blog" link>
           <v-list-item-content>
-            <v-list-item-title>
-              <v-btn text to="/blog">BLOG</v-btn>
-            </v-list-item-title>
+            <v-list-item-title>BLOG</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>

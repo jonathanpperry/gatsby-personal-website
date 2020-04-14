@@ -91,10 +91,7 @@
           being able to volunteer more, and am really believing to see our campus explode
           and grow in Tokyo, but it's only going to happen if we are Jesus' hands and feet,
           and so I am really hoping to continue to come out of my shell and become a leader
-          and to see this nation change. In the future, if it becomes difficult to support
-          myself, I may ask for funding, but for now I have found what is just about a dream
-          job working in programming here in my dream city of Tokyo, and life will never quite
-          be perfect, but with the peace of God it can be pretty good.
+          and to see this nation change.
         </v-responsive>
       </v-container>
 
