@@ -24,9 +24,7 @@
     </div>
     <div class="comments">
       <vue-disqus
-        shortname="jonnyramen"
-        :title="post.slug"
-        :url="`jonathanperry.co/blog/${post.slug}`"
+        shortname="jonathanperryblog"
       ></vue-disqus>
     </div>
   </v-container>
