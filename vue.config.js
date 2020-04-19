@@ -1,5 +1,5 @@
 module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
-}
+  transpileDependencies: ["vuetify"],
+  test: /\.(graphql|gql)$/,
+  use: [{ loader: "graphql-tag/loader" }]
+};
