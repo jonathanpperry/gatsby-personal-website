@@ -1,0 +1,11 @@
+query IndexQuery {
+  allStrapiArticle {
+    edges {
+      node {
+        id
+        title
+        content
+      }
+    }
+  }
+}
