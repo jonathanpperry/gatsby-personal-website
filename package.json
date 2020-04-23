@@ -9,6 +9,7 @@
     "start": "npm run serve"
   },
   "dependencies": {
+    "apollo-cache-inmemory": "^1.6.5",
     "buttercms": "^1.2.2",
     "core-js": "^3.6.4",
     "vee-validate": "^2.2.14",
