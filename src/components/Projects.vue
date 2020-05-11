@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="col-6">
-          <a href="https://japaninfojobs.netlify.app" target="_blank">
+          <a href="https://tokyoblog.netlify.app/" target="_blank">
             <v-img src="../assets/projects/tokyoblog.png" />
           </a>
         </div>
