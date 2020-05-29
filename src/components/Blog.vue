@@ -1,60 +1,35 @@
 <template>
-  <div id="blog-home">
-    <h1 class="text-center">{{ page_title }}</h1>
-    <div class="row">
-      <div class="col-3">
-      </div>
-      <div class="col-6" id="blog-post-div">
-        <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->
-        <div v-for="(post,index) in posts" :key="post.slug + '_' + index">
-          <router-link :to="'/blog/' + post.slug">
-            <article class="media">
-              <figure>
-                <!-- Bind results using a `:` -->
-                <!-- Use a `v-if`/`else` if there is a `featured_image` -->
-                <img img id="blog-image" v-if="post.featured_image" :src="post.featured_image" alt />
-                <img img id="blog-image" v-else src="https://via.placeholder.com/150" alt />
-              </figure>
-              <h2>{{ post.title }}</h2>
-              <p>{{ post.summary }}</p>
-            </article>
-          </router-link>
-        </div>
-      </div>
+  <div class="container">
+    <div :key="item.key" v-for="item in articlesCollection">
+      <h1>{{ item }}</h1>
     </div>
   </div>
 </template>
 
 <script>
-import { butter } from "../buttercms";
 export default {
-  name: "blog",
   data() {
     return {
-      page_title: "Blog",
-      posts: []
+      articlesCollection: []
     };
   },
-  methods: {
-    getPosts() {
-      butter.post
-        .list({
-          page: 1,
-          page_size: 10
-        })
-        .then(res => {
-          this.posts = res.data.data;
+  mounted() {
+    const db = this.$firebase.firestore();
+    db.collection("articles")
+      .get()
+      .then(snap => {
+        const articlesCollection = [];
+        let i = 0;
+        snap.forEach(doc => {
+          articlesCollection.push({ [i]: doc.data() });
+          i++;
         });
-    }
-  },
-  created() {
-    this.getPosts();
+        this.articlesCollection = articlesCollection;
+        console.log(JSON.parse(JSON.stringify(articlesCollection)));
+      });
   }
 };
 </script>
 
-<style scoped>
-#blog-image {
-  max-width: 100%;
-}
+<style lang="scss">
 </style>

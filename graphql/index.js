@@ -3,6 +3,8 @@ import VueApollo from "vue-apollo";
 import ApolloClient from "apollo-client";
 import { HttpLink } from "apollo-link-http";
 import { onError } from "apollo-link-error";
+import { InMemoryCache } from 'apollo-cache-inmemory';
+
 // Notice the use of the link-error tool from Apollo
 
 Vue.use(VueApollo);
@@ -28,7 +30,8 @@ const onErrorLink = onError(({ graphQLErrors, networkError }) => {
 });
 
 const apolloClient = new ApolloClient({
-  link: onErrorLink.concat(httpLink)
+  link: onErrorLink.concat(httpLink),
+  cache: new InMemoryCache()
 });
 
 export default new VueApollo({
