@@ -6,9 +6,9 @@ const authors = [
       "Jonathan is a full-stack web application developer, with experience in Angular, React, Firebase, and other technologies.",
     facebook: "https://www.facebook.com/jonnyramen",
     twitter: "https://www.twitter.com/jonnyramen",
-    instagram: "https://www.instagram.com/jonnyramen",
+    instagram: "https://www.instagram.com/jonathanpperry",
     google: "https://www.google.com/jonnyramen",
-    linkedin: "https://www.linkedin.com/in/jonnyramen",
+    linkedin: "https://www.linkedin.com/in/jonathanpperry",
   },
   {
     name: "Jane Doe",
