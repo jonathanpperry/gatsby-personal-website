@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsbyjs-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby project built as a personal blog for Jonathan Perry",
   "version": "0.1.0",
   "author": "Jonathan Perry <jpper@umich.edu>",
   "dependencies": {
