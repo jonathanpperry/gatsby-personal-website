@@ -1,5 +1,6 @@
 ---
 title: "February Post"
+path: /february-2020-post
 date: 2020-02-15 12:00:00
 author: "Jonathan Perry"
 image: ../../images/Snowboard.jpg

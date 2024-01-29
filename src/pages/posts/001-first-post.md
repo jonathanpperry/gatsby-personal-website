@@ -1,5 +1,6 @@
 ---
 title: 'First Post: Little Victories'
+path: /first-post
 date: 2019-09-12 07:00:00
 author: 'Jane Doe'
 image: ../../images/javascript.jpg

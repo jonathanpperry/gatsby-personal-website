@@ -1,5 +1,6 @@
 ---
 title: "Hacktober"
+path: /hacktober
 date: 2019-10-28 23:40:00
 author: "Jonathan Perry"
 image: ../../images/pumpkin.jpg

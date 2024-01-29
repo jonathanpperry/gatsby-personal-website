@@ -1,5 +1,6 @@
 ---
 title: "End of 2019 Post"
+path: /december-2019
 date: 2019-12-12 23:40:00
 author: "Jonathan Perry"
 image: ../../images/santa.jpg

@@ -1,6 +1,7 @@
 ---
 title: "Watoto Sunday"
 date: 2019-10-01 10:30:00
+path: /watoto
 author: "Jonathan Perry"
 image: ../../images/watoto.jpg
 tags:

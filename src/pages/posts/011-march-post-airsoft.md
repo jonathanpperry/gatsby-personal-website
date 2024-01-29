@@ -1,5 +1,6 @@
 ---
 title: "March Post - Japanese Airsoft"
+path: /march-post-airsoft
 date: 2020-03-09 12:00:00
 author: "Jonathan Perry"
 image: ../../images/airsoft.jpg

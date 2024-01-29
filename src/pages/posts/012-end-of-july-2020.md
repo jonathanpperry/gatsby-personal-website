@@ -1,5 +1,6 @@
 ---
 title: "July Post"
+path: /end-of-july-2020
 date: 2020-07-31 12:00:00
 author: "Jonathan Perry"
 image: ../../images/oedo-onsen-monogatari.jpg

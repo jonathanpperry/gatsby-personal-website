@@ -6,7 +6,7 @@ import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
 
 const IndexPage = () => {
-  const postsPerPage = 2
+  const postsPerPage = 4
   let numberOfPages
   return (
     <Layout pageTitle="Welcome to the Blog!">
@@ -24,6 +24,7 @@ const IndexPage = () => {
                   key={node.id}
                   title={node.frontmatter.title}
                   author={node.frontmatter.author}
+                  path={node.frontmatter.path}
                   slug={node.fields.slug}
                   date={node.frontmatter.date}
                   body={node.excerpt}
@@ -44,7 +45,7 @@ const indexQuery = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 2
+      limit: 4
     ) {
       totalCount
       edges {
@@ -54,6 +55,7 @@ const indexQuery = graphql`
             title
             date(formatString: "MMM Do YYYY")
             author
+            path
             tags
             image {
               childImageSharp {

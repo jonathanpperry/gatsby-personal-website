@@ -1,5 +1,6 @@
 ---
 title: "夏季休暇ーSummer Vacation 2020"
+path: /summer-vacation-2020
 date: 2020-08-14 13:50:00
 author: "Jonathan Perry"
 image: ../../images/kyototower.jpg

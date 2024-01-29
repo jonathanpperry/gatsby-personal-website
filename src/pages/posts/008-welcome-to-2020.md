@@ -1,5 +1,6 @@
 ---
 title: "Welcome To 2020 Post"
+path: /welcome-to-2020
 date: 2020-01-15 12:00:00
 author: "Jonathan Perry"
 image: ../../images/happy-2020.jpg

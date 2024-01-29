@@ -1,5 +1,6 @@
 ---
 title: 'Get Uncomfortable'
+path: /second-post
 date: 2019-09-13 07:00:00
 author: 'Jonathan Perry'
 image: ../../images/javascript.jpg

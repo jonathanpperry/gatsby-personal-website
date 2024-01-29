@@ -1,5 +1,6 @@
 ---
 title: "End of February - Trust In Jesus And You'll Be Fine"
+path: /end-of-february-coronavirus
 date: 2020-02-29 12:00:00
 author: "Jonathan Perry"
 image: ../../images/JesusMountain.jpg

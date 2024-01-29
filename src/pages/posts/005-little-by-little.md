@@ -1,5 +1,6 @@
 ---
 title: "Little By Little"
+path: /little-by-little
 date: 2019-10-5 01:50:00
 author: "Jonathan Perry"
 image: ../../images/javascript.jpg
